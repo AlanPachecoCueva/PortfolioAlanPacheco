@@ -14,7 +14,7 @@
     /* border:1px solid; */
     background-color: #090c11;
     
-    z-index: 5;
+    z-index: 7;
     opacity: 0.99;
 }
 
@@ -34,29 +34,12 @@
 }
 
 .navIcons g{
-    fill:rgb(100, 113, 114);
-}
-
-#languageIcon{
-    margin-bottom: 0%;
+    fill:rgb(6, 141, 208);
 }
 
 /* Allows to change the color of the svg icons */
-#homeIcon:hover g{
-    fill:rgb(16, 193, 202);
-}
-
-#projectIcon:hover g{
-    fill:rgb(16, 193, 202);
-}
-
-#contactIcon:hover g{
-    fill:rgb(16, 193, 202);
-    
-}
-
-#languageIcon:hover g{
-    fill:rgb(16, 193, 202);
+#homeIcon:hover g, #projectIcon:hover g, #contactIcon:hover g, #technologiesIcon:hover g{
+    fill:rgb(17, 146, 152)
 }
 
 /* TAG ICONS */

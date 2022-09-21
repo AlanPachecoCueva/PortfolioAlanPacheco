@@ -15,6 +15,7 @@
     opacity: 0.01;
 
     animation: bublesAnimation 15s linear infinite;
+    z-index: -1;
 }
 
 .burbuja:nth-child(2){
@@ -117,6 +118,7 @@
     opacity: 0.01;
 
     animation: bublesAnimation2 15s linear infinite;
+    z-index: -1;
 }
 
 .burbuja2:nth-child(1){
